@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+.env
+.env.*
+.DS_Store
+# arquivos só do modo de demonstração: nunca publicar
+public/js/conteudo.js
+public/js/acessos.js
+public/gerar-pin.html

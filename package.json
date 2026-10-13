@@ -1,0 +1,10 @@
+{
+  "name": "calendario-franciosi",
+  "private": true,
+  "description": "Calendário de conteúdos do Instagram da Franciosi Sementes (site estático + Supabase).",
+  "scripts": {
+    "build": "node scripts/gerar-config.js",
+    "dev": "node scripts/gerar-config.js && npx --yes serve public -l 8080"
+  },
+  "engines": { "node": ">=18" }
+}
